@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="formulario.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <div class="logo-container">
+          <img src="img/viulogo.png" alt="Logo" />
+        </div>
+        <ul>
+          <li class="help-button"><a href="#">Ayuda</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form class="form-container">
+        <label for="nombre">Nombres*</label>
+        <input type="text" name="nombre" id="input-container" />
+        <br />
+        <label for="apellidos">Apellidos*</label>
+        <input type="text" name="apellidos" id="input-container" />
+        <br />
+        <label for="email">Email*</label>
+        <input type="email" name="email" id="input-container" />
+        <br />
+        <label for="contraseña">Contraseña*</label>
+        <input type="password" name="contraseña" id="input-container" />
+        <br />
+        <label for="contraseña">Repetir Contraseña*</label>
+        <input type="password" name="contraseña" id="input-container" />
+        <br />
+        <input type="submit" value="Registrarse" />
+        <br />
+        <div class="form-footer">
+            <small>*Campos obligatorios</small>
+            <br/>
+            <a href="ayuda/ayuda.html" target="_blank">
+            <p>¿No puedes registrarte?</p>
+            </a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
