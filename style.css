@@ -92,7 +92,22 @@ button.next{
 .card{
     border: 3px solid #f57600;
     border-radius: 10px;
-    padding: 20px;
+    padding: 13px;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 8px 0.1px;
+    transition: transform 0.3s ease;
+}
+
+.btn{
+    border: 2px solid #f57600;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #d86900;
 }
 
 .row{
