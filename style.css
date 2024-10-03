@@ -134,6 +134,21 @@ section.gallery .gallery-container{
     border-radius: 10px;
 }
 
+div.container-card h2{
+    display: flex;
+    justify-content: center;
+}
+
+div.col-card{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    gap: 20px;
+    text-align: center;
+}
+
 .footer{
     overflow: hidden;
 }
